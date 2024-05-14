@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+
+        .title{font-size: large;
+        padding-left: 20px;
+
+        }
+      .div {
+        display: inline-block;
+        background-color: red;
+        
+        width: 200px;
+        height: inherit;
+
+      }
+
+      #div01 {
+        width: 200px;
+        height: inherit;
+        background-color: green;
+        display: inline-block;
+        position: static;
+      }
+
+      #div02 {
+
+        width: 200px;
+        height: inherit;
+        background-color: green;
+        display: inline-block;
+        position: relative;
+        top: 35px;
+        left: 20px;
+
+
+      }
+
+      #div03 {
+
+        width: 200px;
+        height: inherit;
+        background-color: green;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+
+
+      }
+
+      .paragraph {
+       
+        font-size:large
+      }
+
+      .parent {
+        border: 1px dashed;
+        width: max-content;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="title">Position: Static</p>
+    <div class="parent">
+      <div class="div">
+        <p class="paragraph">One</p>
+      </div>
+
+      <div id="div01">
+        <p class="paragraph">Two</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Three</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Four</p>
+      </div>
+    </div>
+
+    <br> <br>
+
+    <p class="title">Position: Static</p>
+    <div class="parent">
+      <div class="div">
+        <p class="paragraph">One</p>
+      </div>
+
+      <div id="div02">
+        <p class="paragraph">Two</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Three</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Four</p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <p class="title">Position: Static</p>
+    <div class="parent">
+      <div class="div">
+        <p class="paragraph">One</p>
+      </div>
+
+      <div id="div03">
+        <p class="paragraph">Two</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Three</p>
+      </div>
+
+      <div class="div">
+        <p class="paragraph">Four</p>
+      </div>
+    </div>
+
+
+
+
+  </body>
+</html>
