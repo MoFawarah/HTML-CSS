@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        background-image: url(Images/bk.jpg);
+        background-size: cover;
+
+        margin: 10px;
+
+        background-repeat: no-repeat;
+        text-align: center;
+      }
+
+      .header button {
+        width: 90px;
+        align-self: center;
+        height: 45px;
+      }
+
+      .header > button > p {
+        font-size: small;
+        
+      }
+
+      .secion-2 {
+        text-align: center;
+      }
+
+      .secion-3 {
+        border: 2px solid rgb(129, 129, 129);
+        width: 100%;
+        justify-content: space-around;
+
+        background-color: rgb(80, 76, 76);
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+        color: rgb(1, 1, 1);
+        padding-top: 1%;
+        padding-bottom: 1%;
+      }
+
+      .secion-3 h3,
+      p {
+        text-align: center;
+      }
+
+      .secion-3 > div {
+        background-color: white;
+
+        border: 1px solid black;
+
+        padding: 1%;
+
+        width: 25%;
+      }
+
+      .section-3,
+      img {
+        width: 100%;
+      }
+
+      .section-4 {
+        text-align: center;
+        margin: 3%;
+      }
+
+      .section-5 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+
+      .section-5 > div {
+        width: 47%;
+        height: 200px;
+      }
+
+      #side-1 {
+        background-color: blue;
+      }
+
+      #side-2 {
+        background-color: orange;
+      }
+
+      @media screen and (max-width: 768px) {
+        p.head-p {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (max-width: 425px) {
+        h1 {
+          font-size: 25px;
+        }
+
+        p.head-p {
+          font-size: 12px;
+        }
+
+        p.ppps {
+          font-size: 13px;
+        }
+
+        p.section-5-p {
+          font-size: 14px;
+        }
+
+        h3.setion-3-h {
+          font-size: 14px;
+        }
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Welcome to Responsive Web</h1>
+        <p class="head-p">
+          Experience seamless browsing on any device with responsive web design!
+          Your website, everywhere, always perfect.
+        </p>
+        <!-- <input type="button" name="" id="" value="Click" /> -->
+        <button><p>Click here</p></button>
+      </div>
+    </header>
+
+    <div class="secion-2">
+      <h2>Responsive Web Development</h2>
+      <br />
+      <p class="section-2-p">
+        PPLorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        corrupti provident illo libero dicta quam nostrum accusamus atque
+        repellendus architecto. Eum sequi debitis exercitationem similique
+        natus, incidunt fugiat beatae? Eum.
+      </p>
+    </div>
+
+    <div class="secion-3">
+      <div>
+        <img src="Images/web1.jpg" alt="" />
+
+        <h3 class="setion-3-h">Why responsive?</h3>
+
+        <p class="ppps">
+          Responsive web design is a fundamental approach to building websites
+          that ensures a seamless user experience across a variety of devices,
+          from smartphones and tablets to desktop computers.
+        </p>
+      </div>
+
+      <div>
+        <img src="Images/web2.jpg" alt="" />
+
+        <h3 class="setion-3-h">Same Experince Everywhere!</h3>
+
+        <p class="ppps">
+          Responsive web design ensures that users have a consistent and
+          seamless experience across all devices, including smartphones,
+          tablets, and desktop computers.
+        </p>
+      </div>
+
+      <div>
+        <img src="Images/web3.jpg" alt="" />
+
+        <h3 class="setion-3-h">Improver Your Accessibility!</h3>
+
+        <p class="ppps">
+          Improving accessibility is a crucial aspect of responsive web design.
+          By creating websites that are responsive, designers and developers can
+          ensure that everyone, including those with disabilities, can access
+          and use the site effectively.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-4">
+      <h3>Develop Your Website</h3>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        nostrum tempora odio dolor eum tempore accusantium? Labore voluptatibus
+        suscipit aperiam, earum doloribus tenetur natus dolorem laudantium nulla
+        repellat distinctio facilis.
+      </p>
+    </div>
+
+    <footer>
+      <div class="section-5">
+        <div id="side-1">
+          <h3>Contact Us</h3>
+          <p class="section-5-p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
+            architecto magni doloribus dolorem magnam provident! Earum ea sunt
+            maxime!
+          </p>
+
+          <p class="section-5-p">Info@hello.com</p>
+        </div>
+
+        <div id="side-2">
+          <h3>Contact Us</h3>
+          <p class="section-5-p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
+            architecto magni doloribus dolorem magnam provident! Earum ea sunt
+            maxime!
+          </p>
+
+          <p class="section-5-p">Info@hello.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
